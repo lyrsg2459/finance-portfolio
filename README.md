@@ -9,5 +9,5 @@ and financial modelling.
 
 | Project | Skills |
 |---------|--------|
-| Microsoft DCF | Valuation, Excel |
-| Microsoft Monte Carlo | Python, Statistics |
+| [Microsoft DCF](microsoft-valuation/microsoft-dcf/) | Valuation, Excel |
+| [Microsoft Monte Carlo](microsoft-valuation/microsoft-monte-carlo/) | Python, Statistics |
