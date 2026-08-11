@@ -1,3 +1,13 @@
-# MSFT-Valuation
-Includes a DCF and Monte Carlo (in progress) valuation of Microsoft Corporation.
-Full DCF model for Microsoft from scratch. Date of Valuation: 31 June 2026. Projected values up to 5 financial years (FY27 - FY31)
+# Finance Portfolio
+
+Hi, I'm Yi Rui.
+
+This repository contains my finance projects covering valuation 
+and financial modelling.
+
+## Projects
+
+| Project | Skills |
+|---------|--------|
+| Microsoft DCF | Valuation, Excel |
+| Microsoft Monte Carlo | Python, Statistics |
