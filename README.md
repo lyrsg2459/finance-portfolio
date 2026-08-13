@@ -2,8 +2,7 @@
 
 Hi, I'm Yi Rui.
 
-This repository contains my finance projects covering valuation 
-and financial modelling.
+This repository contains my finance projects covering valuation, financial modelling and coding.
 
 ## Projects
 
