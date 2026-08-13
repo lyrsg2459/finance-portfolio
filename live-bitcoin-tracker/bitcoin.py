@@ -5,18 +5,24 @@ response = requests.get("https://rest.coincap.io/v3/assets/bitcoin?apiKey=072bb9
 data = response.json()
 
 while True:
-    number_str = sys.argv[1]
+    try:
+        number_str = sys.argv[1]
+        
+        if not number_str.isalpha():
 
-    if not number_str.isalpha():
+            try:
+                number = float(number_str)
+                amount = number * float(data["data"]["priceUsd"])
+                print(f"${amount:,.4f}")
+                break
 
-        try:
-            number = float(number_str)
-            amount = number * float(data["data"]["priceUsd"])
-            print(f"${amount:,.4f}")
-            break
+            except (ValueError, IndexError):
+                sys.exit("Missing command-line argument")
 
-        except ValueError:
-            sys.exit("Missing command-line argument")
+        else:
+            sys.exit("Command-line argument is not a number")
 
-    else:
-        sys.exit("Command-line argument is not a number")
+    except IndexError: 
+        sys.exit("Missing command-line argument")   
+
+
