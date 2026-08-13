@@ -1,0 +1,22 @@
+{
+  "valuation_date": "2026-06-30",
+  "base_case_deterministic_output": {
+    "implied_share_price": 293.08,
+    "actual_market_price": 373.02,
+    "source": "Original deterministic DCF, MSFT_DCF_Model_V1.xlsx"
+  },
+  "note": "Distributions for the Monte Carlo layer are defined in src/distributions.py. This file records the deterministic base-case point estimates each distribution is centered on, sourced from the FY2026 10-K, company guidance, and the macro/market sources documented in the original DCF project's assumptions register.",
+  "revenue_growth_fy27_fy31": [0.18, 0.15, 0.125, 0.105, 0.09],
+  "cogs_pct_of_revenue": [0.325, 0.329, 0.332, 0.334, 0.336],
+  "rd_pct_of_revenue": [0.103, 0.10, 0.098, 0.096, 0.094],
+  "sm_dollar_growth": [0.041, 0.04, 0.0292, 0.0282, 0.0282],
+  "ga_dollar_growth": [0.032, 0.032, 0.0222, 0.0222, 0.0222],
+  "effective_tax_rate": [0.196, 0.198, 0.20, 0.201, 0.202],
+  "capex_pct_of_revenue": [0.4469, 0.42, 0.403, 0.388, 0.378],
+  "ppe_useful_life_years": 5.98,
+  "nwc_pct_of_revenue": -0.1415559085913948,
+  "wacc": 0.09485115129674662,
+  "terminal_growth_rate": 0.04,
+  "net_debt_mm": 82159,
+  "shares_outstanding_mm": 7427
+}
