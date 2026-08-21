@@ -13,7 +13,7 @@ I documented the entire process below.
 3. You are welcome to implement additional classes and functions as you see fit beyond the minimum requirement.
 4. Any pip-installable libraries that your project requires must be listed, one per line, in a file called `requirements.txt` in the root of your project. This file allows others to install your project’s dependencies with `pip install -r requirements.txt`.
 
-# Introduction and how the code should function:
+# Purpose:
 
 The DCF Model on Excel computes the implied share price of MSFT using values such as projected revenue,
 projected free cash flows, and WACC. However, a number of these values (and the values used in their 
